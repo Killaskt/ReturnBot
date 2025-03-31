@@ -1,0 +1,14 @@
+{
+  "users": {
+    "id": "uuid primary key",
+    "email": "text not null unique",
+    "created_at": "timestamp default now()"
+  },
+  "reminders": {
+    "id": "uuid primary key",
+    "user_id": "uuid references users(id) on delete cascade",
+    "store": "text not null",
+    "reminder_date": "timestamp not null",
+    "created_at": "timestamp default now()"
+  }
+}

@@ -2,11 +2,11 @@
 import React from 'react';
 import { SafeAreaView, Text, FlatList, Button, View, StyleSheet } from 'react-native';
 import * as Calendar from 'expo-calendar';
-import { transactions } from './utils/transactions';
-import { createReminderForTransaction } from './utils/calendarUtils';
-import { saveReminderToSupabase } from './utils/supabaseUtils';
+import { transactions } from '../utils/transactions';
+import { createReminderForTransaction } from '../utils/calendarUtils';
+import { saveReminderToSupabase } from '../utils/supabaseUtils';
 import { MaterialIcons } from '@expo/vector-icons';
-import { supabase } from './utils/supabaseUtils';
+import { supabase } from '../utils/supabaseUtils';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 
 export default function ReturnReminderScreen({ navigation }) {

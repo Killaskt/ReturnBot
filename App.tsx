@@ -3,8 +3,8 @@ import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
 import React, { useEffect, useState } from 'react';
 import { createClient } from '@supabase/supabase-js';
-import LoginScreen from './LoginScreen';
-import ReturnReminderScreen from './ReturnReminderScreen';
+import LoginScreen from './screens/LoginScreen';
+import ReturnReminderScreen from './screens/ReturnReminderScreen';
 import { EXPO_SUPABASE_URL, EXPO_SUPABASE_KEY } from '@env';
 
 const supabaseUrl = EXPO_SUPABASE_URL!;

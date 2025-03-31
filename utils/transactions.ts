@@ -6,7 +6,7 @@ export const transactions = [
     returnWindowDays: 30,
     estimatedReturnDate: '2025-04-24',
     reminderCreated: false,
-    itemType: 'Electronics', // Example item type
+    itemType: 'Electronics',
   },
   {
     id: '2',
@@ -15,7 +15,7 @@ export const transactions = [
     returnWindowDays: 30,
     estimatedReturnDate: '2025-04-19',
     reminderCreated: false,
-    itemType: 'Clothing', // Example item type
+    itemType: 'Clothing',
   },
   {
     id: '3',
